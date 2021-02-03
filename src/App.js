@@ -4,7 +4,8 @@ import Router from "./router/Router";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import "./App.css";
+import "./sass/helpers/_variables.scss"
+import "./sass/helpers/_grid.scss"
 
 function App() {
   return (

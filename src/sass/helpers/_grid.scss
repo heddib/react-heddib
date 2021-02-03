@@ -1,0 +1,52 @@
+@import './variables';
+
+$i: 1;
+$nombreCol: 12;
+$margin: 2%;
+
+$gutter-width: 1rem;
+$half-gutter-width: $gutter-width / 2;
+$gutter-compensation: -1 * $half-gutter-width;
+
+@for $i from 1 through $nombreCol {
+  $width: percentage($i / $nombreCol);
+
+  .col-#{$i} {
+    width: $width - $margin;
+    @extend .col-responsive;
+  }
+}
+header{
+  background-color: red;
+}
+.col-responsive {
+  @media screen and (min-width: $mobile) and (max-width: $tablette) {
+    width: 100%;
+    margin: 2% 0%;
+
+    &:last-child{
+      margin-bottom: 0%
+    }
+  }
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+@mixin grid-row () {
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  margin-right: $gutter-compensation;
+  margin-left: $gutter-compensation;
+}
+
+.row {
+  @include grid-row;
+}
