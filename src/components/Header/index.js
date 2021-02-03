@@ -1,11 +1,14 @@
-import '../../sass/components/header/index.scss'
+import "../../sass/components/header/index.scss";
+import React, { Component } from "react";
 
-const Header = () => {
-  return (
-    <header>
+class Header extends Component {
+  render() {
+    return (
+      <header>
       <p>Header</p>
     </header>
-  );
-};
+    );
+  }
+}
 
 export default Header;
