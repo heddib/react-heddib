@@ -1,17 +1,13 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 class QuizzCard extends Component {
   render() {
     return (
       <>
-        <p>
-          Thème du quizz : <b>{this.props.quizz.name}</b>
-        </p>
-        {/* Temporaire */}
-        <p>
-          Solution : <b>{this.props.quizz.questions[0].responses[0].response}</b>{" "}
-        </p>
-        {/* ***** */}
+        <p>Thème du quizz : <b>{this.props.quizz.name}</b></p>
+
+        <Link to={{ pathname: `/quizz/${ this.props.index }` }}>Commencer le quizz</Link>
       </>
     );
   }
