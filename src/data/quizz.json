@@ -26,6 +26,31 @@
             "validate": false
           }
         ]
+      },
+      {
+        "name": "Combien de game Mathieu va t'il perdre ce soir ?",
+        "responses": [
+          {
+            "response": "3 défaites",
+            "validate": true
+          },
+          {
+            "response": "0 défaites, EZ",
+            "validate": false
+          },
+          {
+            "response": "1 défaite oklm",
+            "validate": false
+          },
+          {
+            "response": "4 défaites",
+            "validate": false
+          },
+          {
+            "response": "full lose",
+            "validate": false
+          }
+        ]
       }
     ]
   },

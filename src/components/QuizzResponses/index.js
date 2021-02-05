@@ -12,9 +12,9 @@ function shuffleArray(array) {
 }
 
 function getResponses(responses) {
-  let goodAnswerArray = responses.filter((response) => response.validate);
-  let badAnswersArray = shuffleArray(responses.filter((response) => !response.validate));
-  badAnswersArray.pop();
+  let goodAnswerArray = responses.filter(response => response.validate);
+  let badAnswersArray = shuffleArray(responses.filter(response => !response.validate));
+  badAnswersArray.splice(3);
   return shuffleArray(badAnswersArray.concat(goodAnswerArray));
 }
 
@@ -29,7 +29,7 @@ class QuizzResponses extends Component {
           {getResponses(this.question.responses).map((response, i) => {
             return (
               <div key={i}>
-                <div>
+                <div onClick={() => this.props.onNext()} style={{ height: "50px", color: "red", cursor: "pointer" }}>
                   <p>{response.response}</p>
                 </div>
               </div>
