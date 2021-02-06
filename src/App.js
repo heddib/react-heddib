@@ -4,14 +4,15 @@ import Router from "./router/Router";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import "./sass/helpers/_variables.scss"
-import "./sass/helpers/_grid.scss"
+import "./sass/global.scss";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Router />
+      <div className="content">
+        <Router />
+      </div>
       <Footer />
     </React.Fragment>
   );

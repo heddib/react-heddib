@@ -1,3 +1,4 @@
+import "../../sass/components/footer/index.scss";
 import React, { Component } from "react";
 
 class Footer extends Component {
