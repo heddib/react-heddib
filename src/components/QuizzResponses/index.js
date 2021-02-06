@@ -11,7 +11,7 @@ function shuffleArray(array) {
   return array;
 }
 
-function getResponses(responses) {
+function getResponses(responses) { // Séléctionne trois mauvaises réponses parmis celles disponibles sur le json
   let goodAnswerArray = responses.filter(response => response.validate);
   let badAnswersArray = shuffleArray(responses.filter(response => !response.validate));
   badAnswersArray.splice(3);

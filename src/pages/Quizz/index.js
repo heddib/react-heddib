@@ -11,7 +11,7 @@ class DisplayAllQuizz extends Component {
   render() {
     return (
       <>
-        <h1>Bienvenue sur la page d'affichage de tout les quizz</h1>
+        <h1>Bienvenue sur la page d'affichage de tous les quizz</h1>
         <div className="quizz-wrapper">{AllQuizz}</div>
       </>
     );
