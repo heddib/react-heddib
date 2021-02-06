@@ -1,0 +1,17 @@
+@import "../../helpers/variables";
+
+.quizz-wrapper--card-container {
+  display: flex;
+  flex-direction: column;
+
+  .quizz-wrapper--card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0 1px transparentize($text, 0.97), 0px 0px 0 3px transparentize($text, 0.98);
+    cursor: pointer;
+  }
+}

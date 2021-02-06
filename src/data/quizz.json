@@ -83,5 +83,90 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Quizz 1",
+    "questions": [
+      {
+        "name": "Combien de verre Mathieu va t'il boire ce soir ?",
+        "responses": [
+          {
+            "response": "0 car il va win",
+            "validate": true
+          },
+          {
+            "response": "1, pas de chance",
+            "validate": false
+          },
+          {
+            "response": "2, coup dur",
+            "validate": false
+          },
+          {
+            "response": "42, wallah",
+            "validate": false
+          },
+          {
+            "response": "4, il dormira avant de win",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Combien de game Mathieu va t'il perdre ce soir ?",
+        "responses": [
+          {
+            "response": "3 défaites",
+            "validate": true
+          },
+          {
+            "response": "0 défaites, EZ",
+            "validate": false
+          },
+          {
+            "response": "1 défaite oklm",
+            "validate": false
+          },
+          {
+            "response": "4 défaites",
+            "validate": false
+          },
+          {
+            "response": "full lose",
+            "validate": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Quizz 2",
+    "questions": [
+      {
+        "name": "Y a quoi après 3 ?",
+        "responses": [
+          {
+            "response": "4",
+            "validate": true
+          },
+          {
+            "response": "...Soleil !",
+            "validate": false
+          },
+          {
+            "response": "2, tout est relatif",
+            "validate": false
+          },
+          {
+            "response": "3",
+            "validate": false
+          },
+          {
+            "response": "je sais pas je suis en cp",
+            "validate": false
+          }
+        ]
+      }
+    ]
   }
 ]

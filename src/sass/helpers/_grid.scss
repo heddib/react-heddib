@@ -19,6 +19,14 @@ $gutter-compensation: -1 * $half-gutter-width;
 
 .col-responsive {
   @media screen and (min-width: $mobile) and (max-width: $tablette) {
+    width: 50%;
+    margin: 2% 0%;
+
+    &:last-child {
+      margin-bottom: 0%;
+    }
+  }
+  @media screen and (max-width: $mobile) {
     width: 100%;
     margin: 2% 0%;
 
