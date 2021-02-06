@@ -29,7 +29,7 @@ class QuizzResponses extends Component {
           {getResponses(this.question.responses).map((response, i) => {
             return (
               <div key={i}>
-                <div onClick={() => this.props.onNext()} style={{ height: "50px", color: "red", cursor: "pointer" }}>
+                <div onClick={() => this.props.onNext(response.validate)} style={{ height: "50px", color: "red", cursor: "pointer" }}>
                   <p>{response.response}</p>
                 </div>
               </div>

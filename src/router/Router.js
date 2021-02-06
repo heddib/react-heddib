@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Main from "./../pages/Main";
 import AllQuizzPage from "./../pages/Quizz/index";
 import OneQuizzPage from "./../pages/Quizz/quizz";
+import QuizzResults from "./../pages/Quizz/results";
 import Error_404 from "./../pages/Errors/404";
 
 const Routes = () => {
@@ -18,6 +19,7 @@ const Routes = () => {
           <Route exact path="/" component={Main} />
           <Route path="/quizz/:id" component={OneQuizzPage} />
           <Route path="/quizz" component={AllQuizzPage} />
+          <Route path="/results" render={(props) => <QuizzResults {...props}/>} />
           <Route path="*" component={Error_404} />
         </Switch>
       </div>

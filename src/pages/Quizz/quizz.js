@@ -8,21 +8,24 @@ let thisQuizz;
 class DisplayOneQuizz extends Component {
   state = {
     done: false,
-    currentQuestion: 0
+    currentQuestion: 0,
+    score: 0,
   };
 
-  updateQuestion() {
+  updateQuestion(goodAnswer) {
     this.setState({ currentQuestion: this.state.currentQuestion + 1 });
-    console.log(this.state.currentQuestion);
+    if (goodAnswer) {
+      this.setState({ score: this.state.score + 1 });
+    }
   }
 
   // ComponentWillMount est deprecated et React suggère de déplacer le code dans componentDidMount avec l'utilisation de State
   componentDidMount() {
     const {
-      match: { params }
+      match: { params },
     } = this.props;
     thisQuizz = data[params.id - 1];
-    this.setState({ done: true });
+    this.setState({ done: true, score: 0 });
   }
 
   render() {
@@ -33,13 +36,23 @@ class DisplayOneQuizz extends Component {
         <p>Bienvenue sur la page d'affichage d'un unique quizz</p>
         <p>{thisQuizz.name}</p>
         <div>
-          {
-            // TODO : Page conclusion quizz
-          }
-          {this.state.currentQuestion < thisQuizz.questions.length ? (
-            <QuizzResponses key={this.state.currentQuestion} question={thisQuizz.questions[this.state.currentQuestion]} onNext={() => this.updateQuestion()} />
+          {this.state.currentQuestion === thisQuizz.questions.length ? (
+            <Redirect
+              to={{
+                pathname: "/results",
+                state: { score: this.state.score, quizz: thisQuizz },
+              }}
+            />
           ) : (
-            <Redirect to="/quizz" />
+            this.state.currentQuestion < thisQuizz.questions.length ? (
+              <QuizzResponses
+                key={this.state.currentQuestion}
+                question={thisQuizz.questions[this.state.currentQuestion]}
+                onNext={(goodAnswer) => this.updateQuestion(goodAnswer)}
+              />
+            ) : (
+              <Redirect to="/quizz" />
+            )
           )}
         </div>
       </>
