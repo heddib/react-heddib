@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 $i: 1;
 $nombreCol: 12;
@@ -16,16 +16,22 @@ $gutter-compensation: -1 * $half-gutter-width;
     @extend .col-responsive;
   }
 }
-header{
-  background-color: red;
-}
+
 .col-responsive {
   @media screen and (min-width: $mobile) and (max-width: $tablette) {
+    width: 50%;
+    margin: 2% 0%;
+
+    &:last-child {
+      margin-bottom: 0%;
+    }
+  }
+  @media screen and (max-width: $mobile) {
     width: 100%;
     margin: 2% 0%;
 
-    &:last-child{
-      margin-bottom: 0%
+    &:last-child {
+      margin-bottom: 0%;
     }
   }
 }
@@ -37,7 +43,7 @@ header{
   padding-left: 2rem;
 }
 
-@mixin grid-row () {
+@mixin grid-row() {
   flex-direction: row;
   box-sizing: border-box;
   display: flex;

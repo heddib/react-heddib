@@ -1,0 +1,1014 @@
+[
+  {
+    "name": "Quizz sur les animes",
+    "questions": [
+      {
+        "name": "Combien de queues possède le renard à 9 queues dans Naruto ?",
+        "responses": [
+          {
+            "response": "9",
+            "validate": true
+          },
+          {
+            "response": "1",
+            "validate": false
+          },
+          {
+            "response": "8",
+            "validate": false
+          },
+          {
+            "response": "10",
+            "validate": false
+          },
+          {
+            "response": "0",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Qui est le créateur de Princesse Mononoké ?",
+        "responses": [
+          {
+            "response": "Hayao Miyazaki",
+            "validate": true
+          },
+          {
+            "response": "Marc Zuckerberg",
+            "validate": false
+          },
+          {
+            "response": "Steven Spielberg",
+            "validate": false
+          },
+          {
+            "response": "Alexis Bougy",
+            "validate": false
+          },
+          {
+            "response": "Shigeru Miyamoto",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Combien de fois Freezer est-il mort dans Dragon Ball, Dragon Ball Z et Dragon Ball Super ?",
+        "responses": [
+          {
+            "response": "2 fois",
+            "validate": true
+          },
+          {
+            "response": "1 fois",
+            "validate": false
+          },
+          {
+            "response": "3 fois",
+            "validate": false
+          },
+          {
+            "response": "4 fois",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Lequel de ces mangas n'existe pas ?",
+        "responses": [
+          {
+            "response": "Grand Student Onizuka",
+            "validate": true
+          },
+          {
+            "response": "Re:Zero",
+            "validate": false
+          },
+          {
+            "response": "Food Wars",
+            "validate": false
+          },
+          {
+            "response": "Tokyo Ghoul",
+            "validate": false
+          },
+          {
+            "response": "Assassination Classroom",
+            "validate": false
+          },
+          {
+            "response": "Nanatsu no Taisai",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Quel est le personage princpal de My Hero Academia ?",
+        "responses": [
+          {
+            "response": "Izuku Midoriya",
+            "validate": true
+          },
+          {
+            "response": "All Might",
+            "validate": false
+          },
+          {
+            "response": "Katsuki Bakugo",
+            "validate": false
+          },
+          {
+            "response": "Shoto Todoroki",
+            "validate": false
+          },
+          {
+            "response": "Ochako uraraka",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dans Fire Force, quelle est la brigade du personnage principal, Shinra Kusakabe ?",
+        "responses": [
+          {
+            "response": "8",
+            "validate": true
+          },
+          {
+            "response": "9",
+            "validate": false
+          },
+          {
+            "response": "7",
+            "validate": false
+          },
+          {
+            "response": "6",
+            "validate": false
+          },
+          {
+            "response": "10",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "En combien de tomes a été écrite l'histoire complète de Hunter x Hunter ?",
+        "responses": [
+          {
+            "response": "36 tomes",
+            "validate": true
+          },
+          {
+            "response": "30 tomes",
+            "validate": false
+          },
+          {
+            "response": "42 tomes",
+            "validate": false
+          },
+          {
+            "response": "26 tomes",
+            "validate": false
+          },
+          {
+            "response": "44 tomes",
+            "validate": false
+          },
+          {
+            "response": "52 tomes",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dans Soul Eater, combien d'âme de sorcière une arme doit manger pour devenir Death Scythe ?",
+        "responses": [
+          {
+            "response": "1",
+            "validate": true
+          },
+          {
+            "response": "99",
+            "validate": false
+          },
+          {
+            "response": "50",
+            "validate": false
+          },
+          {
+            "response": "100",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Fuck Heddi ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Da",
+            "validate": true
+          },
+          {
+            "response": "True",
+            "validate": true
+          },
+          {
+            "response": "Ja",
+            "validate": true
+          }
+        ]
+      },
+      {
+        "name": "Quel est le meilleur Anime de cette liste ?",
+        "responses": [
+          {
+            "response": "Naruto",
+            "validate": true
+          },
+          {
+            "response": "One piece",
+            "validate": true
+          },
+          {
+            "response": "Shingeki no Kyojin",
+            "validate": true
+          },
+          {
+            "response": "Dragon Ball",
+            "validate": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Second Quizz",
+    "questions": [
+      {
+        "name": "Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "On recommence par ce que il faut 10 questions, Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Troisième Quizz",
+    "questions": [
+      {
+        "name": "Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "On recommence par ce que il faut 10 questions, Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Quatrième Quizz",
+    "questions": [
+      {
+        "name": "Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "On recommence par ce que il faut 10 questions, Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+@import "../../helpers/variables";
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .results-container--display-score {
+    p {
+      font-size: 8rem;
+      line-height: 10rem;
+      @media screen and (min-width: $mobile) and (max-width: $tablette) {
+        font-size: 6rem;
+        line-height: 7.6rem;
+      }
+      @media screen and (max-width: $mobile) {
+        font-size: 5rem;
+        line-height: 6.3rem;
+      }
+    }
+  }
+
+  a {
+    margin-top: 5px;
+  }
+}

@@ -1,18 +1,12 @@
 import React from "react";
-import Router from "./router/Router";
+import Routes from "./router/Router";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-
-import "./sass/helpers/_variables.scss"
-import "./sass/helpers/_grid.scss"
+import "./sass/global.scss";
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Router />
-      <Footer />
+      <Routes/>
     </React.Fragment>
   );
 }

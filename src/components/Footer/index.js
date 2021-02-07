@@ -1,9 +1,14 @@
-const Footer = () => {
-  return (
-    <footer>
-      <p>Footer</p>
-    </footer>
-  );
-};
+import "../../sass/components/footer/index.scss";
+import React, { Component } from "react";
+
+class Footer extends Component {
+  render() {
+    return (
+      <footer>
+        <p>Footer</p>
+      </footer>
+    );
+  }
+}
 
 export default Footer;
