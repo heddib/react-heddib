@@ -103,7 +103,7 @@
         ]
       },
       {
-        "name": "Quel est le princpal de My Hero Academia ?",
+        "name": "Quel est le personage princpal de My Hero Academia ?",
         "responses": [
           {
             "response": "Izuku Midoriya",
@@ -245,7 +245,8 @@
         ]
       }
     ]
-  },{
+  },
+  {
     "name": "Second Quizz",
     "questions": [
       {
@@ -372,9 +373,135 @@
             "validate": false
           }
         ]
+      },
+      {
+        "name": "On recommence par ce que il faut 10 questions, Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "name": "Troisième Quizz",
     "questions": [
       {
@@ -501,13 +628,264 @@
             "validate": false
           }
         ]
+      },
+      {
+        "name": "On recommence par ce que il faut 10 questions, Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
       }
     ]
-  },{
+  },
+  {
     "name": "Quatrième Quizz",
     "questions": [
       {
         "name": "Par pitié, cliquez sur oui",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Continue",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          },
+          {
+            "response": "...",
+            "validate": false
+          },
+          {
+            "response": "!?",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Non ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          },
+          {
+            "response": "Yep",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "...",
+        "responses": [
+          {
+            "response": "...",
+            "validate": true
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          },
+          {
+            "response": "Oui",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "Dernière question, oui ?",
+        "responses": [
+          {
+            "response": "Oui",
+            "validate": true
+          },
+          {
+            "response": "zzzz",
+            "validate": false
+          },
+          {
+            "response": "Pas encore fini ?",
+            "validate": false
+          },
+          {
+            "response": "Supprimer Internet",
+            "validate": false
+          },
+          {
+            "response": "Non",
+            "validate": false
+          }
+        ]
+      },
+      {
+        "name": "On recommence par ce que il faut 10 questions, Par pitié, cliquez sur oui",
         "responses": [
           {
             "response": "Oui",
