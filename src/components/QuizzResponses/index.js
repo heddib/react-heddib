@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "../../sass/components/quizzResponses/index.scss";
+
 function shuffleArray(array) {
   let i = array.length - 1;
   for (; i > 0; i--) {
@@ -11,7 +13,8 @@ function shuffleArray(array) {
   return array;
 }
 
-function getResponses(responses) { // Séléctionne trois mauvaises réponses parmis celles disponibles sur le json
+function getResponses(responses) {
+  // Séléctionne trois mauvaises réponses parmis celles disponibles sur le json
   let goodAnswerArray = responses.filter(response => response.validate);
   let badAnswersArray = shuffleArray(responses.filter(response => !response.validate));
   badAnswersArray.splice(3);
@@ -24,14 +27,12 @@ class QuizzResponses extends Component {
   render() {
     return (
       <>
-        <p>{this.question.name}</p>
-        <div>
+        <h1>{this.question.name}</h1>
+        <div className="responses-wrapper">
           {getResponses(this.question.responses).map((response, i) => {
             return (
-              <div key={i}>
-                <div onClick={() => this.props.onNext(response.validate)} style={{ height: "50px", color: "red", cursor: "pointer" }}>
-                  <p>{response.response}</p>
-                </div>
+              <div key={i} onClick={() => this.props.onNext(response.validate)} className="responses-wrapper--response-container">
+                <p>{response.response}</p>
               </div>
             );
           })}

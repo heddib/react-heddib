@@ -10,6 +10,7 @@ class DisplayOneQuizz extends Component {
     done: false,
     currentQuestion: 0,
     score: 0,
+    
   };
 
   updateQuestion(goodAnswer) {
@@ -22,7 +23,7 @@ class DisplayOneQuizz extends Component {
   // ComponentWillMount est deprecated et React suggère de déplacer le code dans componentDidMount avec l'utilisation de State
   componentDidMount() {
     const {
-      match: { params },
+      match: { params }
     } = this.props;
     thisQuizz = data[params.id - 1];
     this.setState({ done: true, score: 0 });
@@ -33,26 +34,23 @@ class DisplayOneQuizz extends Component {
 
     return (
       <>
-        <p>Bienvenue sur la page d'affichage d'un unique quizz</p>
-        <p>{thisQuizz.name}</p>
+        <h3>{thisQuizz.name}</h3>
         <div>
           {this.state.currentQuestion === thisQuizz.questions.length ? (
             <Redirect
               to={{
                 pathname: "/results",
-                state: { score: this.state.score, quizz: thisQuizz },
+                state: { score: this.state.score, quizz: thisQuizz, questionsAmount: thisQuizz.questions.length }
               }}
             />
+          ) : this.state.currentQuestion < thisQuizz.questions.length ? (
+            <QuizzResponses
+              key={this.state.currentQuestion}
+              question={thisQuizz.questions[this.state.currentQuestion]}
+              onNext={goodAnswer => this.updateQuestion(goodAnswer)}
+            />
           ) : (
-            this.state.currentQuestion < thisQuizz.questions.length ? (
-              <QuizzResponses
-                key={this.state.currentQuestion}
-                question={thisQuizz.questions[this.state.currentQuestion]}
-                onNext={(goodAnswer) => this.updateQuestion(goodAnswer)}
-              />
-            ) : (
-              <Redirect to="/quizz" />
-            )
+            <Redirect to="/quizz" />
           )}
         </div>
       </>

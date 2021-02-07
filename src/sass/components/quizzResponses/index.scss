@@ -1,0 +1,32 @@
+@import "../../helpers/variables";
+
+.responses-wrapper {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media screen and (max-width: $mobile) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  margin-top: 30px;
+
+  .responses-wrapper--response-container {
+    display: flex;
+    justify-content: center;
+
+    transition: 0.2s ease;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 15px 25px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $text;
+    }
+
+    &:hover > p {
+      color: #fff;
+    }
+  }
+}

@@ -3,15 +3,26 @@
 .quizz-wrapper--card-container {
   display: flex;
   flex-direction: column;
+  border-radius: 6px;
+  background-color: white;
+  transition: 0.2s ease;
 
   .quizz-wrapper--card {
     display: flex;
     flex-direction: column;
-    background-color: white;
 
     padding: 4px 8px;
     border-radius: 6px;
     box-shadow: 0px 0px 0 1px transparentize($text, 0.97), 0px 0px 0 3px transparentize($text, 0.98);
     cursor: pointer;
+  }
+
+  :hover > .quizz-wrapper--card p,
+  :hover > .quizz-wrapper--card h2 {
+    color: #fff;
+    background-color: transparent;
+  }
+  &:hover {
+    background-color: $text;
   }
 }

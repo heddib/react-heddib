@@ -3,4 +3,8 @@ footer {
   padding: 10px 16px;
   margin-top: auto;
   width: calc(100% - 32px);
+
+  a {
+    text-decoration: none;
+  }
 }
