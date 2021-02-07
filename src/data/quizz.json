@@ -203,23 +203,23 @@
         ]
       },
       {
-        "name": "Fuck Heddi ?",
+        "name": "Ayaya",
         "responses": [
           {
-            "response": "Oui",
+            "response": "Ayaya",
             "validate": true
           },
           {
-            "response": "Da",
-            "validate": true
+            "response": "Aled",
+            "validate": false
           },
           {
-            "response": "True",
-            "validate": true
+            "response": "OK",
+            "validate": false
           },
           {
-            "response": "Ja",
-            "validate": true
+            "response": "OUI",
+            "validate": false
           }
         ]
       },
