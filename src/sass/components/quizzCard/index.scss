@@ -17,6 +17,10 @@
     cursor: pointer;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   :hover > .quizz-wrapper--card p,
   :hover > .quizz-wrapper--card h2 {
     color: #fff;

@@ -15,10 +15,16 @@ header {
     height: 100%;
     align-items: baseline;
   }
+
   .nav-item {
     margin-left: 25px;
   }
+
   a {
     text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
   }
 }
