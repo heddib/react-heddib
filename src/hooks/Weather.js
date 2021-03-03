@@ -17,7 +17,7 @@ function Weather() {
 
    // Utilisation du useEffect
   useEffect(() => {
-    axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&unit=metric&lang=fr`).then((response) => {
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&unit=metric&lang=fr`).then((response) => {
       console.log(response.data)
       setData(response.data)
     })
